@@ -27,7 +27,7 @@ const Blog = () => {
 
             <div className="grid grid-cols-12 grid-rows-1 gap-4">
                 <div className="col-span-6">
-                    <Image className="w-[630px] h-[300px]" src={imgOne} alt="blog-1" />
+                    <Image placeholder="blur" className="w-[630px] h-[300px]" src={imgOne} alt="blog-1" />
                     <div className="p-5 bg-violet-50 flex-col justify-start items-start gap-5 inline-flex">
                         <div className="self-stretch flex-col justify-start items-start gap-[15px] flex">
                             <div className="space-x-3">
@@ -46,7 +46,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div className="col-span-6 col-start-7">
-                    <Image className="w-[630px] h-[300px]" src={imgOne} alt="blog-1" />
+                    <Image placeholder="blur" className="w-[630px] h-[300px]" src={imgOne} alt="blog-1" />
                     <div className="p-5 bg-violet-50 flex-col justify-start items-start gap-5 inline-flex">
                         <div className="self-stretch  flex-col justify-start items-start gap-[15px] flex">
                             <div className="space-x-3">

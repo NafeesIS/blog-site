@@ -12,7 +12,7 @@ const Banner = () => {
         <Container className="relative">
             <div className="grid grid-cols-12 gap-[30px]">
                 <div className="col-span-2 row-span-2 relative">
-                    <Image className="h-[400px] opacity-40" src={rectangleOne} alt="raet" />
+                    <Image className="h-[400px] opacity-40" placeholder="blur" src={rectangleOne} alt="raet" />
                     <div className="w-10 h-10 p-2.5 rotate-180 bg-indigo-900 justify-center items-center gap-2.5 inline-flex absolute top-1/4 right-0">
                         <div className="w-5 h-5 justify-center items-center flex">
                             <Image className="w-5 h-5 relative" src={ArrowRight} alt="ArrowRight" />
