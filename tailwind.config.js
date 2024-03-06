@@ -13,7 +13,7 @@ module.exports = {
         },
         extend: {
             colors: {
-                indigo: "hsl(var(--indigo))",
+                "indigo-9": "hsl(var(--indigo))",
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
                 ring: "hsl(var(--ring))",
